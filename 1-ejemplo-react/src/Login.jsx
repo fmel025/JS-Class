@@ -7,13 +7,14 @@ function Login() {
   // useState, esta keyword nos permite crear una variable que es exclusiva para el componente (pueden ser varias), y dependiendo de estos valores un componente se debe renderizar.
 
   // Hagan esto dentro de su componente Login
+  // TODO: Cambiar esto a username
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (event) => {
     // La linea 15 se hace porque se tiene que detener que el formulario recargue la pagina
     event.preventDefault();
-    alert("El email ingresado es: " + email);
+    alert("El username ingresado es: " + email);
     alert("La contraseña ingresada es: " + password);
   };
 
