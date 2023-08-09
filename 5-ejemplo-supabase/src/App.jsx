@@ -1,4 +1,6 @@
 import Users from "./pages/Users"
+import { useEffect } from "react"
+import TodoList from "./pages/TodoList"
 
 // Componente funcional sintaxis:
 
@@ -14,9 +16,10 @@ import Users from "./pages/Users"
 // Tarea: Investigar sobre la estructura de carpetas de un proyecto en react
 
 function App() {
+
   return (
     <>
-      <Users />
+      <TodoList />
     </>
   )
 }
